@@ -1,0 +1,23 @@
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    align-items: center;
+    width: 100%;
+}
+
+.links a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    background-color: #222;
+    padding: 12px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    transition: color 150ms linear;
+}
+
+.links a:hover{
+    color: #ffbb33;
+}

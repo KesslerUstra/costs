@@ -1,0 +1,27 @@
+.projects_container{
+    width: 100%;
+    padding: 15px;
+}
+
+.titulo_container{
+    display: flex;
+    gap: 20px;
+    padding: 15px 0px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo_container a{
+    display: block;
+}
+
+.msg_project_none{
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    color: #222;
+    font-size: 1.3rem;
+    font-weight: 600;
+}

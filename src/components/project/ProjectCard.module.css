@@ -1,0 +1,108 @@
+.project_card{
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.project_card.maximo{
+    height: auto;
+}
+
+.project_card.maximo{
+    justify-content: space-between;
+}
+
+.project_card h4{
+    background-color: #222;
+    word-wrap: break-word;
+    padding: 18px 20px;
+    color: #ffbb33;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.project_card > p, .info > p{
+    color: #7a7a7a;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.project_card > p > span{
+    color: #6a6a6a;
+    font-weight: bold;
+}
+
+.project_card .text{
+    font-size: 0.9rem;
+}
+
+.project_card .orcamento, .project_card .custos{
+    padding: 20px 10px;
+    margin-bottom: 0px;
+    background-color: #e7e7e7;
+}
+
+.project_card .custos{
+    margin-bottom: 25px;
+}
+
+.project_card .category_text{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 30px;
+}
+
+.category_text span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #CCC;
+}
+
+.category_text span.infra{
+    background-color: #ffaebc;
+}
+.category_text span.desenvolvimento{
+    background-color: #a0e7e5;
+}
+.category_text span.design{
+    background-color: #b4f8c8;
+}
+.category_text span.planejamento{
+    background-color: #fbe7c6;
+}
+
+.project_card_actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_card_actions a, .project_card_actions button{
+    text-decoration: none;
+    border: none;
+    width: 50%;
+    padding: 18px 0px;
+    font-size: 0.9rem;
+    gap: 5px;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 180ms linear;
+    cursor: pointer;
+}
+
+.project_card_actions .total{
+    width: 100%;
+}
+
+.project_card_actions a:hover, .project_card_actions button:hover{
+    background-color: #222;
+    color: #ffbb33;
+}
